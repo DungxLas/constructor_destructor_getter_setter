@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		74CCD7A228E33B0200736A84 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 74CCD7A128E33B0200736A84 /* main.cpp */; };
+		74CCD7AA28E33BAC00736A84 /* Diem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 74CCD7A828E33BAC00736A84 /* Diem.cpp */; };
+		74CCD7AD28E345D700736A84 /* PhanSo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 74CCD7AB28E345D700736A84 /* PhanSo.cpp */; };
+		74CCD7AF28E3460000736A84 /* main_PhanSo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 74CCD7AE28E3460000736A84 /* main_PhanSo.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,12 @@
 
 /* Begin PBXFileReference section */
 		74CCD79E28E33B0200736A84 /* constructor_destructor_getter_setter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = constructor_destructor_getter_setter; sourceTree = BUILT_PRODUCTS_DIR; };
-		74CCD7A128E33B0200736A84 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		74CCD7A128E33B0200736A84 /* main_Diem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main_Diem.cpp; sourceTree = "<group>"; };
+		74CCD7A828E33BAC00736A84 /* Diem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Diem.cpp; sourceTree = "<group>"; };
+		74CCD7A928E33BAC00736A84 /* Diem.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Diem.hpp; sourceTree = "<group>"; };
+		74CCD7AB28E345D700736A84 /* PhanSo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PhanSo.cpp; sourceTree = "<group>"; };
+		74CCD7AC28E345D700736A84 /* PhanSo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PhanSo.hpp; sourceTree = "<group>"; };
+		74CCD7AE28E3460000736A84 /* main_PhanSo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main_PhanSo.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +64,12 @@
 		74CCD7A028E33B0200736A84 /* constructor_destructor_getter_setter */ = {
 			isa = PBXGroup;
 			children = (
-				74CCD7A128E33B0200736A84 /* main.cpp */,
+				74CCD7A128E33B0200736A84 /* main_Diem.cpp */,
+				74CCD7A828E33BAC00736A84 /* Diem.cpp */,
+				74CCD7A928E33BAC00736A84 /* Diem.hpp */,
+				74CCD7AC28E345D700736A84 /* PhanSo.hpp */,
+				74CCD7AB28E345D700736A84 /* PhanSo.cpp */,
+				74CCD7AE28E3460000736A84 /* main_PhanSo.cpp */,
 			);
 			path = constructor_destructor_getter_setter;
 			sourceTree = "<group>";
@@ -119,7 +131,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74CCD7A228E33B0200736A84 /* main.cpp in Sources */,
+				74CCD7AA28E33BAC00736A84 /* Diem.cpp in Sources */,
+				74CCD7AD28E345D700736A84 /* PhanSo.cpp in Sources */,
+				74CCD7AF28E3460000736A84 /* main_PhanSo.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
